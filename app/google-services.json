@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "444023638113",
+    "firebase_url": "https://myotp-bfe90.firebaseio.com",
+    "project_id": "myotp-bfe90",
+    "storage_bucket": "myotp-bfe90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444023638113:android:a57a76dbdea5daca",
+        "android_client_info": {
+          "package_name": "net.ramastudio.mytens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444023638113-p7hd4ie86tnisfckdpj3ioqp7s8bt4rj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.ramastudio.mytens",
+            "certificate_hash": "d264511d630bce2c07e6db578bf70dd3282fb461"
+          }
+        },
+        {
+          "client_id": "444023638113-lmf6l3f5htkj0i51hl8143piqpt1rglk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDuCg1NY5CqfvLFpnedf7W7R42JTtV82g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444023638113-lmf6l3f5htkj0i51hl8143piqpt1rglk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
