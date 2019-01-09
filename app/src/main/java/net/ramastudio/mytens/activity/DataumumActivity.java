@@ -6,6 +6,8 @@ import android.os.Bundle;
 import net.ramastudio.mytens.R;
 
 public class DataumumActivity extends AppCompatActivity {
+    private static final String TAG = "PostActivity";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

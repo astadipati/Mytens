@@ -17,14 +17,6 @@ import android.widget.Toast;
 import com.basgeekball.awesomevalidation.AwesomeValidation;
 import com.basgeekball.awesomevalidation.ValidationStyle;
 import com.basgeekball.awesomevalidation.utility.RegexTemplate;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseException;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseAuthException;
-import com.google.firebase.auth.PhoneAuthCredential;
-import com.google.firebase.auth.PhoneAuthProvider;
 
 import net.ramastudio.mytens.R;
 import net.ramastudio.mytens.model.AccessToken;
@@ -108,7 +100,7 @@ public class RegisterActivity extends AppCompatActivity {
                         Log.w(TAG, "OnResponse: "+response.body());
                         tokenManager.saveToken(response.body());
 //                        Toast.makeText(mContext, "Token Tersimpan", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(RegisterActivity.this, DataumumActivity.class));
+                        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                         finish();
                     } else{
                         handleErrors(response.errorBody());
