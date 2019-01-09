@@ -14,7 +14,7 @@ import retrofit2.http.Path;
 public interface ApiService {
     @POST("register")
     @FormUrlEncoded
-    Call<AccessToken> register(@Field("nik") String name, @Field("nohp") String email, @Field("password") String password);
+    Call<AccessToken> register(@Field("nik") String name, @Field("noHP") String email, @Field("password") String password);
 
     @POST("login")
     @FormUrlEncoded

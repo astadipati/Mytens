@@ -6,4 +6,10 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <!--error-->
+    <string name="err_nik">NIK Tidak Boleh Kosong.</string>
+    <string name="err_nohp">Nomor Handphone Diperlukan.</string>
+    <string name="err_password">Password Minimal 6 Karakter.</string>
+
 </resources>
